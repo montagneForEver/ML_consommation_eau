@@ -32,3 +32,13 @@ Voir **presentation.ipynb** pour le code et **presentation.pdf** pour le rapport
 Informations complémentaires transmises par Hupi après la soutenance :
 - Les compteurs présentant un volume insuffisant de données devaient effectivement être exclus de l’analyse, en raison d’un taux élevé d’indisponibilités de télérelève. Une action d’amélioration a été menée avec l’exploitant afin d’augmenter la fiabilité des données issues des compteurs.
 - L’objectif de l’étude était d’estimer un niveau d’anomalie en comparant une consommation réelle à une consommation prédite. Le modèle de référence utilise habituellement comme prédiction la consommation mesurée entre 00h00 et 04h00, période durant laquelle la consommation attendue est proche de zéro. Cependant, dans le cadre de ce projet, les données disponibles étant agrégées sous forme d’un point quotidien unique, cette approche n’était pas applicable.
+
+## Bonus
+
+Réalisation d'un modèle DLinear from scratch en PyTorch compatible GPU NVIDIA Quadro M620. Voir **DLinear.ipynb**
+
+Requirements :
+- python==3.10.19
+- torch==1.13.1
+- numpy==1.24.3
+- pandas==2.3.3
